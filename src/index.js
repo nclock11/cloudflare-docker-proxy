@@ -3,7 +3,8 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
 
-const dockerHub = "https://registry-1.docker.io";
+// const dockerHub = "https://registry-1.docker.io";
+const dockerHub = "https://emw8f6xb.mirror.aliyuncs.com";
 const CUSTOM_DOMAIN = 'itbk.cc';
 const routes = {
   // production
